@@ -1,5 +1,7 @@
 body {
     overflow-x: hidden;
+	background-color: #1b1b1a;
+	color: white;
 }
 
 li {
@@ -53,7 +55,7 @@ h2 {
 }
 
 .navbar .navbar-toggler {
-    background-color: white;
+    background-color: #1b1b1a;
 }
 
 .navbar .log {
@@ -68,7 +70,7 @@ h2 {
     position: absolute;
     width: 250px;
     padding: 5px;
-    background-color: white;
+    background-color: #1b1b1a;
     right: -30px;
     display: none;
 }
@@ -152,12 +154,12 @@ header .content a span {
     height: 40px;
     width: 60px;
     line-height: 40px;
-    background-color: white;
+    background-color: #1b1b1a;
 }
 
 header .carousel-control-next i, header .carousel-control-prev i {
     font-size: 22px;
-    color: black;
+    color: white;
 }
 
 header .carousel-control-next {
@@ -173,7 +175,8 @@ header .carousel-control-prev {
 /* about */
 
 .about {
-    padding: 50px 0
+    padding: 50px 0;
+	background-color: #1b1b1a
 }
 
 .about .img {
@@ -183,6 +186,7 @@ header .carousel-control-prev {
 .about .img img{
     width: 100%;
     height: auto;
+	margin-left: 80px;
 }
 
 .about .row > .col-lg-6:first-of-type {
@@ -190,7 +194,7 @@ header .carousel-control-prev {
 }
 
 .about .about-child {
-    width: 70%
+    width: 90%;
 }
 
 .about .about-child > p:first-of-type {
@@ -203,13 +207,13 @@ header .carousel-control-prev {
     border: 2px solid #ffe25b;
     margin-top: 30px;
     text-align: left;
-    color: black;
+    color: white;
     float: right;
 }
 
 .about a i {
     padding: 5px 15px;
-    color: black;
+    color: white;
     background-color: #ffe25b
 }
 
@@ -222,7 +226,8 @@ header .carousel-control-prev {
 /* services */
 
 .services {
-    margin-bottom: 50px
+    margin-bottom: 50px;
+	color: white;
 }
 
 .services .container {
@@ -230,7 +235,7 @@ header .carousel-control-prev {
 }
 
 .services .services-child {
-    background-color: #ebebeb;
+    background-color: #1b1b1a;
     padding: 60px 0;
 }
 
@@ -252,7 +257,7 @@ header .carousel-control-prev {
 }
 
 .services .row a {
-    color: black;
+    color: white;
 }
 
 .services .row a:hover {
@@ -264,13 +269,13 @@ header .carousel-control-prev {
     border: 2px solid #ffe25b;
     margin-top: 30px;
     text-align: left;
-    color: black;
+    color: white;
     float: right;
 }
 
 .services .container > a i {
     padding: 5px 15px;
-    color: black;
+    color: white;
     background-color: #ffe25b
 }
 
@@ -284,7 +289,7 @@ header .carousel-control-prev {
 
 .project .project-child {
     padding: 120px 0;
-    background-color: #151201;
+    background-color: #1b1b1a;
 }
 
 .project img {
@@ -378,31 +383,6 @@ header .carousel-control-prev {
     height: 50px;
     cursor: pointer;
     margin-bottom: 0;
-}
-
-/* testimonial */
-
-.testimonial .test-child {
-    background-color: black;
-    padding: 50px 0;
-    color: white;
-}
-
-.testimonial .container {
-    overflow: hidden;
-}
-
-.testimonial img {
-    width: 100%;
-    height: 100%;
-}
-
-.testimonial .row {
-    overflow: hidden
-}
-
-.testimonial .row:first-of-type {
-    margin-bottom: 40px;
 }
 
 /* footer*/
